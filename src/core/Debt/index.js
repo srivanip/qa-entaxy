@@ -24,7 +24,7 @@ class Debt extends React.Component {
           <Grid item xs={2}>
             <Paper className={classes.paper}>
               <Typography variant="headline" gutterBottom align="center">
-
+                Left Panel
               </Typography>
             </Paper>
           </Grid>
@@ -40,7 +40,7 @@ class Debt extends React.Component {
           <Grid item xs={2}>
             <Paper className={classes.paper}>
               <Typography variant="headline" gutterBottom align="center">
-
+                Right Panel
               </Typography>
             </Paper>
           </Grid>
