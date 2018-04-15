@@ -22,3 +22,5 @@ yarn-error.log*
 *.log
 
 .idea
+
+/src/core/Portfolios/portfolios/*.json
