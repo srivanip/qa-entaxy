@@ -106,14 +106,18 @@ export const IncomeTaxData = ({ year, province, income }) => {
     if (currIncome >= TaxBrackets[year][province][bracketIndex].amountUpTo) {
       data.push({
         income: TaxBrackets[year][province][bracketIndex].amountUpTo,
-        tax: calculateTotalTax(year, province, TaxBrackets[year][province][bracketIndex].amountUpTo)
+        tax: calculateTotalTax(year, province, TaxBrackets[year][province][bracketIndex].amountUpTo),
+        federalTax: calculateTax(year, 'federal', TaxBrackets[year][province][bracketIndex].amountUpTo),
+        provincialTax: calculateTax(year, province, TaxBrackets[year][province][bracketIndex].amountUpTo)
       })
       bracketIndex += 1
     }
 
     data.push({
       income: currIncome,
-      tax: calculateTotalTax(year, province, currIncome)
+      tax: calculateTotalTax(year, province, currIncome),
+      federalTax: calculateTax(year, 'federal', currIncome),
+      provincialTax: calculateTax(year, province, currIncome)
     })
   }
   return data
