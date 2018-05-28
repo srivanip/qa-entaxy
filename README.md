@@ -15,6 +15,16 @@ Production site: https://entaxy.io
 
 Staging site: https://entaxy-staging.firebaseapp.com/
 
+## To build:
+
+Pull down the repository: 
+`git clone https://github.com/twg/entaxy.git`
+
+To run:
+`npm install`
+
+`npm start`
+
 ## Feature roadmap
 * Investments
 	* ETFs / Cryptocurrencies / Stocks / Mutual funds
