@@ -11,8 +11,6 @@ We want to raise the bar on finance literacy by bringing to light concepts that 
 
 Using beautiful data visualizations we want to build an opinionated framework that will provide you with useful insights and help improve your day to day life by dramatically reducing the financial stress and confusion you may be experiencing
 
-Production site: https://entaxy.io
-
 Staging site: https://entaxy-staging.firebaseapp.com/
 
 ## Running the build on your local machine
