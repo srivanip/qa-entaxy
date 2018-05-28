@@ -15,13 +15,14 @@ Production site: https://entaxy.io
 
 Staging site: https://entaxy-staging.firebaseapp.com/
 
-## To build:
+## To run build:
 
-Pull down the repository: 
+Clone the repository on your local machine: 
 `git clone https://github.com/twg/entaxy.git`
 
 To run:
 
+Go to the repository in your terminal and run:
 `npm install`
 
 `npm start`
