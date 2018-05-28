@@ -15,7 +15,7 @@ Production site: https://entaxy.io
 
 Staging site: https://entaxy-staging.firebaseapp.com/
 
-## To run build:
+## Running the build on your local machine
 
 Clone the repository on your local machine: 
 `git clone https://github.com/twg/entaxy.git`
