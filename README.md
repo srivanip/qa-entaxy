@@ -21,6 +21,7 @@ Pull down the repository:
 `git clone https://github.com/twg/entaxy.git`
 
 To run:
+
 `npm install`
 
 `npm start`
